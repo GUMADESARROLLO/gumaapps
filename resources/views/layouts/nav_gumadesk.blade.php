@@ -230,7 +230,9 @@
       <div class="bg-white dark__bg-1000 rounded-2 py-2">
       <a class="dropdown-item fw-bold text-warning" href="#!"><span class="fas fa-crown me-1"></span><span>Nombre Usuario</span></a>
       <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="tickets">Vista Usuario</a>
+      <a class="dropdown-item" href="Ordenes">Pedidos</a>
+      <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="tickets">Vista Usuario</a>
         <a class="dropdown-item" href="UnidadNegocio">Unidades de Negocio</a>
         <a class="dropdown-item" href="Departamentos">Departamentos</a>
         <a class="dropdown-item" href="categorias">Categorias</a>

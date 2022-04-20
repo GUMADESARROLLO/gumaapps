@@ -78,4 +78,13 @@ Route::get('Usuarios', 'TicketsController@getUsuarios')->name('Usuarios');
 Route::get('Departamentos', 'TicketsController@getDepartamentos')->name('Departamentos');
 Route::get('UnidadNegocio', 'TicketsController@getUnidadNegocio')->name('UnidadNegocio');
 
+
+Route::get('Catalogo', 'OrdenesController@getCatalogo')->name('Catalogo');
+Route::get('Ordenes', 'OrdenesController@getOrdenes')->name('Ordenes');
+Route::get('OrdenesDetalles', 'OrdenesController@getOrdenesDetalles')->name('OrdenesDetalles');
+Route::get('Clientes', 'OrdenesController@getClientes')->name('Clientes');
+Route::get('Carrito', 'OrdenesController@getCarrito')->name('Carrito');
+Route::get('Resumen', 'OrdenesController@getResumen')->name('Resumen');
+
+
 Auth::routes();
